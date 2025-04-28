@@ -3,19 +3,11 @@
 This project is a simplified vehicle rental management API.
 
 ## 📦 Project Structure
-- `VehicleRentalPlatform.API` — Main API project
 - `VehicleRentalPlatform.Domain` — Domain entities (Vehicle, Rental, Customer, Telemetry)
 - `VehicleRentalPlatform.Infrastructure` — Database and seeding logic
 - `VehicleRentalPlatform.Tests` — Unit and integration tests
 
 ---
-
-## 🚀 How to Run
-
-### 1. Using CLI
-```bash
-cd VehicleRentalPlatform.API
-dotnet run
 
 🛠️ Architecture and Design Decisions
 Clean Architecture: Domain, Infrastructure, API layers separated.
